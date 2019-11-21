@@ -35,7 +35,7 @@ public class EmpDaoimpl implements EmpDao {
         List<Emp> list = query.list();
         //4.关闭
         HibernateUtils.closeSession();
-        System.out.println("df");
+        System.out.println("dffdgege");
         return list;
     }
 }
